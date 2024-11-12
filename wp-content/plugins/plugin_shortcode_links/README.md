@@ -33,10 +33,13 @@ A lista é precedida por um cabeçalho "Mais Artigos" e exibe até 5 posts relac
 
 ### Lógica
 
-O plugin usa `WP_Query` para buscar posts que compartilham a mesma categoria do post em que o shortcode é inserido. Ele ignora o post atual na lista para evitar repetição. O shortcode `[links_relacionados]` possibilita que usuários insiram a lista de links em qualquer parte do conteúdo de forma simples e prática.
+O plugin usa `WP_Query` para buscar posts que compartilham a mesma categoria do post em que o shortcode é inserido. Ele ignora o post atual na lista para evitar repetição. 
+O shortcode `[links_relacionados]` possibilita que usuários insiram a lista de links em qualquer parte do conteúdo de forma simples e prática.
 
-A utilização de `WP_Query` e `get_the_category()` oferece flexibilidade e permite exibir conteúdos relevantes de maneira automática e eficiente, melhorando a experiência dos visitantes ao mostrar mais conteúdo relacionado sem a necessidade de configuração manual.
+A utilização de `WP_Query` e `get_the_category()` oferece flexibilidade e permite exibir conteúdos relevantes de maneira automática e eficiente, 
+melhorando a experiência dos visitantes ao mostrar mais conteúdo relacionado sem a necessidade de configuração manual.
 
 ### Aplicação Prática
 
-O plugin é especialmente útil para blogs, sites de notícias ou qualquer outro tipo de site que deseja aumentar o engajamento dos leitores, fornecendo links para posts relacionados. Isso pode prolongar o tempo de permanência dos visitantes no site e melhorar a navegação ao oferecer conteúdos adicionais de interesse.
+O plugin é especialmente útil para blogs, sites de notícias ou qualquer outro tipo de site, fornecendo links para posts relacionados. 
+Isso pode aumentar o tempo de permanência dos visitantes no site e melhorar a navegação ao oferecer conteúdos adicionais de interesse ou conteudos em destaque.

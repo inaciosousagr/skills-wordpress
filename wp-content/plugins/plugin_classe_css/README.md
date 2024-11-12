@@ -3,7 +3,7 @@
 
 ## Descrição
 
-Este plugin adiciona automaticamente uma classe CSS chamada `custom-class` a cada tag `<p>` no conteúdo dos posts do WordPress. Ele oferece uma forma prática de aplicar estilos consistentes aos parágrafos sem necessidade de alterar o HTML manualmente.
+O plugin proposto adiciona automaticamente uma classe CSS chamada `custom-class` a cada tag `<p>` no conteúdo dos posts do WordPress. Ele oferece uma forma prática de aplicar estilos consistentes aos parágrafos sem necessidade de alterar o HTML manualmente.
 
 ## Como Instalar e Ativar
 
@@ -29,10 +29,12 @@ O plugin não requer configuração adicional. Assim que ativado, ele adicionar�
 
 ### Lógica
 
-Este plugin usa o filtro `the_content` para modificar o conteúdo dos posts antes de sua renderização no navegador. O método `str_replace()` foi utilizado para adicionar a classe CSS `custom-class` a todas as tags `<p>` encontradas no conteúdo. Isso garante uma abordagem leve e não intrusiva, modificando apenas os parágrafos dos posts, sem afetar outros elementos.
+Este plugin usa o filtro `the_content` para modificar o conteúdo dos posts antes de sua renderização no navegador. O método `str_replace()` foi utilizado para adicionar a classe CSS `custom-class` a todas as tags `<p>` encontradas no conteúdo. 
+Isso garante uma abordagem leve e não intrusiva, modificando apenas os parágrafos dos posts, sem afetar outros elementos.
 
-O filtro `the_content` foi escolhido por ser uma solução direta e eficiente para alterar o conteúdo dos posts, mantendo o foco apenas nos textos publicados, sem interferência em páginas ou outros elementos.
+O filtro `the_content` foi escolhido por ser uma solução direta e eficiente para alterar o conteúdo dos posts, mantendo o foco apenas nos textos publicados, sem interferência em páginas ou outros elementos do site.
 
 ### Aplicação Prática
 
-O plugin pode ser aplicado em blogs, sites de notícias e outros sites WordPress que desejem estilizar os parágrafos dos posts de forma uniforme. Ele é especialmente útil para designers e administradores que precisam aplicar estilos de CSS personalizados sem editar cada post manualmente. Isso proporciona uma aparência consistente e facilita a manutenção do design geral.
+O plugin pode ser aplicado em blogs, sites de notícias e outros sites WordPress que desejem estilizar os parágrafos dos posts de forma uniforme. 
+

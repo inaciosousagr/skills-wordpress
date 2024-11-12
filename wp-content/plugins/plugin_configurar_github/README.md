@@ -3,7 +3,7 @@
 
 ## Descrição
 
-Este plugin adiciona uma página no painel de administração do WordPress que permite salvar a URL do perfil do GitHub de um usuário. 
+O plugin adiciona uma página no painel de administração do WordPress que permite salvar a URL do perfil do GitHub de um usuário. 
 A URL salva será inserida como uma meta tag no `<head>` de todas as páginas do site.
 
 ## Instruções de Instalação e Ativação
@@ -43,4 +43,4 @@ Essa abordagem foi escolhida para ser simples e eficiente, garantindo que a URL 
 
 ### Aplicação Prática
 
-Este plugin é útil para sites que desejam incluir informações do perfil de GitHub em meta tags, o que pode ser usado para verificações, integração com outras ferramentas ou para mostrar informações de desenvolvedores. É especialmente útil para sites de portfólio, blogs de tecnologia e projetos que desejam destacar a presença no GitHub.
+Este plugin é útil para sites que desejam incluir informações do perfil de GitHub em meta tags, o que pode ser usado para verificações, integração com outras ferramentas ou para mostrar informações de desenvolvedores. 
