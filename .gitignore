@@ -1,0 +1,14 @@
+# WordPress core files and sensitive data
+wp-config.php
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Sensitive files
+.htaccess
+.env
+
